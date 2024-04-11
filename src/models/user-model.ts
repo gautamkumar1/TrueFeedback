@@ -4,7 +4,7 @@ Messages Interface
 ---------------------------
 */
 
-interface Message extends Document {
+export interface Message extends Document {
     content: string;
     createdAt: Date;
 }
